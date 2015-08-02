@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dota2Statistics</string>
+    <string name ="steamId_hint">Enter your steam id</string>
+    <string name ="sendId">OK</string>
+    <string name ="helpId">I do not know my steam id</string>
+    <string name="action_settings">Settings</string>
+</resources>
