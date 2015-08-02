@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id = "@+id/steamIdText"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint = "@string/steamId_hint"
+        android:inputType="number"
+
+        />
+
+    <Button
+        android:id ="@+id/sendIdButton"
+        android:layout_height = "wrap_content"
+        android:layout_width = "wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below = "@id/steamIdText"
+        android:onClick="sendSteamId"
+        android:text ="@string/sendId"
+        />
+
+    <!--<TextView-->
+        <!--android:id = "@+id/or"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_marginBottom="50dp"-->
+        <!--android:layout_centerHorizontal ="true"-->
+        <!--android:layout_below = "@id/sendIdButton"-->
+        <!--android:text = "Or"-->
+        <!--/>-->
+
+    <Button
+        android:id = "@+id/findIdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop ="100dp"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below = "@id/sendIdButton"
+        android:text ="@string/helpId"
+        android:onClick = "findSteamId"
+
+
+        />
+
+
+
+</RelativeLayout>
+<!-- From: file:/home/burak/Desktop/DotaStatistic/Dota2Statistics/app/src/main/res/layout/activity_main.xml -->
