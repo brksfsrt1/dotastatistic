@@ -4,4 +4,7 @@
     <string name ="sendId">OK</string>
     <string name ="helpId">I do not know my steam id</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_display_past_matches">DisplayPastMatchesActivity</string>
+
+    <string name="hello_world">Hello world!</string>
 </resources>

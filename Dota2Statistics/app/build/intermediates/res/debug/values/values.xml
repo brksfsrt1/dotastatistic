@@ -194,9 +194,11 @@
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">Dota2Statistics</string>
+    <string name="hello_world">Hello world!</string>
     <string name="helpId">I do not know my steam id</string>
     <string name="sendId">OK</string>
     <string name="steamId_hint">Enter your steam id</string>
+    <string name="title_activity_display_past_matches">DisplayPastMatchesActivity</string>
     <!-- From: file:/home/burak/Desktop/DotaStatistic/Dota2Statistics/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

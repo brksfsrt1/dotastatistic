@@ -1523,7 +1523,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09003d;
         public static final int action_mode_bar_stub=0x7f09003c;
         public static final int action_mode_close_button=0x7f090025;
-        public static final int action_settings=0x7f090052;
+        public static final int action_settings=0x7f090057;
         public static final int activity_chooser_view_content=0x7f090026;
         public static final int alertTitle=0x7f090030;
         public static final int always=0x7f090016;
@@ -1543,7 +1543,8 @@ containing a value of this type.
         public static final int end=0x7f090014;
         public static final int expand_activities_button=0x7f090027;
         public static final int expanded_menu=0x7f090037;
-        public static final int findIdButton=0x7f090051;
+        public static final int heroName=0x7f090056;
+        public static final int heroPortrait=0x7f090054;
         public static final int home=0x7f090004;
         public static final int homeAsUp=0x7f09000d;
         public static final int icon=0x7f09002b;
@@ -1551,6 +1552,8 @@ containing a value of this type.
         public static final int image=0x7f090028;
         public static final int listMode=0x7f090009;
         public static final int list_item=0x7f09002a;
+        public static final int matchDate=0x7f090055;
+        public static final int matchList=0x7f090051;
         public static final int middle=0x7f090015;
         public static final int multiply=0x7f09001e;
         public static final int never=0x7f090019;
@@ -1573,7 +1576,7 @@ containing a value of this type.
         public static final int search_src_text=0x7f090049;
         public static final int search_voice_btn=0x7f09004d;
         public static final int select_dialog_listview=0x7f09004e;
-        public static final int sendIdButton=0x7f090050;
+        public static final int sendIdButton=0x7f090053;
         public static final int shortcut=0x7f090039;
         public static final int showCustom=0x7f09000f;
         public static final int showHome=0x7f090010;
@@ -1582,7 +1585,7 @@ containing a value of this type.
         public static final int src_atop=0x7f090020;
         public static final int src_in=0x7f090021;
         public static final int src_over=0x7f090022;
-        public static final int steamIdText=0x7f09004f;
+        public static final int steamIdText=0x7f090052;
         public static final int submit_area=0x7f09004b;
         public static final int tabMode=0x7f09000b;
         public static final int textSpacerNoButtons=0x7f090033;
@@ -1591,6 +1594,8 @@ containing a value of this type.
         public static final int topPanel=0x7f09002e;
         public static final int up=0x7f090008;
         public static final int useLogo=0x7f090012;
+        public static final int userAvatar=0x7f09004f;
+        public static final int userNickName=0x7f090050;
         public static final int withText=0x7f09001a;
         public static final int wrap_content=0x7f09001d;
     }
@@ -1625,14 +1630,17 @@ containing a value of this type.
         public static final int abc_search_view=0x7f040016;
         public static final int abc_select_dialog_material=0x7f040017;
         public static final int abc_simple_dropdown_hint=0x7f040018;
-        public static final int activity_main=0x7f040019;
-        public static final int select_dialog_item_material=0x7f04001a;
-        public static final int select_dialog_multichoice_material=0x7f04001b;
-        public static final int select_dialog_singlechoice_material=0x7f04001c;
-        public static final int support_simple_spinner_dropdown_item=0x7f04001d;
+        public static final int activity_display_past_matches=0x7f040019;
+        public static final int activity_main=0x7f04001a;
+        public static final int list_view=0x7f04001b;
+        public static final int select_dialog_item_material=0x7f04001c;
+        public static final int select_dialog_multichoice_material=0x7f04001d;
+        public static final int select_dialog_singlechoice_material=0x7f04001e;
+        public static final int support_simple_spinner_dropdown_item=0x7f04001f;
     }
     public static final class menu {
-        public static final int menu_main=0x7f0d0000;
+        public static final int menu_display_past_matches=0x7f0d0000;
+        public static final int menu_main=0x7f0d0001;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -1657,9 +1665,11 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f0b0010;
         public static final int action_settings=0x7f0b0011;
         public static final int app_name=0x7f0b0012;
-        public static final int helpId=0x7f0b0013;
-        public static final int sendId=0x7f0b0014;
-        public static final int steamId_hint=0x7f0b0015;
+        public static final int hello_world=0x7f0b0013;
+        public static final int helpId=0x7f0b0014;
+        public static final int sendId=0x7f0b0015;
+        public static final int steamId_hint=0x7f0b0016;
+        public static final int title_activity_display_past_matches=0x7f0b0017;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0c0000;
